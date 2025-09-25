@@ -1,0 +1,132 @@
+body{
+    background-color: #5b2c82;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+/*.banner {*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    background-attachment: fixed;*/
+/*    background-repeat: no-repeat;*/
+
+/*    position: relative;*/
+
+/*}*/
+
+
+.logo img{
+    width:150px;
+    height:150px;
+}
+
+/*.carosel-item{*/
+/*    height:380px !important;*/
+/*}*/
+
+/*barra de pesquisa*/
+
+
+.input-container {
+    position: relative;
+    margin: 50px auto;
+    width: 200px;
+}
+
+.input-container input[type="text"] {
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.input-container .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ccc;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.input-container input[type="text"]:focus ~ .label,
+.input-container input[type="text"]:valid ~ .label {
+    top: -20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.input-container .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+
+.input-container input[type="text"]:focus ~ .underline,
+.input-container input[type="text"]:valid ~ .underline {
+    transform: scaleX(1);
+}
+
+.icone div i{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.linha-roxa {
+    width: 100%;          /* Largura da linha */
+    height: 30px;         /* Altura da linha */
+    background-color: #8149a0; /* Cor roxa clara */
+}
+
+/* Estilo dos cards */
+.card-img-top {
+    height: 180px; /* Altura fixa */
+    width: 180px;
+    object-fit: cover;   /* Cobre toda a área do card */
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}

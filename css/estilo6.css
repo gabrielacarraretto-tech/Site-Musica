@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    font-size: 1.9rem;
+}
+
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.formulario {
+    background: url("../imagens/siteMusica/FundoCadastro.jpg") center/cover no-repeat;;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.form-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.btn-custom {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.localizacao{
+    height: 50px;
+    width: 50px;
+
+
+}
+.map-container {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.banner {
+    width: 1399px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+}
+
+.logo img{
+    width:150px;
+    height:150px;
+}
+
+
+.input-container {
+    position: relative;
+    margin: 50px auto;
+    width: 200px;
+}
+
+.input-container input[type="text"] {
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.input-container .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ccc;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.input-container input[type="text"]:focus ~ .label,
+.input-container input[type="text"]:valid ~ .label {
+    top: -20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.input-container .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+
+.input-container input[type="text"]:focus ~ .underline,
+.input-container input[type="text"]:valid ~ .underline {
+    transform: scaleX(1);
+}
+
+.navbar {
+    background-color: black;
+}
+.form-container {
+    background: rgb(98, 36, 125);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+.btn-custom {
+    background-color: red;
+    color: white;
+    width: 100%;
+}
+
+
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 50px ;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+
